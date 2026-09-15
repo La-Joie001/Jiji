@@ -1,0 +1,216 @@
+ body {
+     background-color: white;
+     margin: 0px;
+ }
+
+ header {
+     display: flex;
+     padding: 10px 40px;
+     align-items: center;
+     justify-content: space-between;
+     background-color: whitesmoke;
+ }
+
+ .logo {
+     display: flex;
+     flex-wrap: nowrap;
+     text-align: left;
+ }
+
+ #logo-text {
+     margin: 5px 15px 20px 10px;
+ }
+
+ nav {
+     display: flex;
+     justify-content: center;
+     text-align: center;
+ }
+
+ nav a {
+    padding: 20px;
+    margin: 0px;
+     font-size: 16px;
+ }
+
+ nav a:hover {
+     background-color: rgb(15, 117, 148);
+     border-radius: 18px;
+ }
+
+ .sign {
+     padding: 11px 20px;
+     background-color: blue;
+     color: white;
+     border-radius: 5px;
+ }
+
+ .sign:hover {
+     background-color: white;
+     color: blue;
+ }
+
+ .welcome {
+     color: rgb(69, 69, 212);
+     background-color: rgb(14, 219, 219);
+     border-radius: 5px;
+     margin: 20px;
+     padding: 7px 10px;
+ }
+
+.main {
+     background-color: rgb(110, 184, 248);
+     padding: 20px 40px;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
+
+ #info {
+     display: block;
+ }
+
+ #ref {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 15px;
+ }
+
+ .start {
+     padding: 15px 20px;
+     background-color: blue;
+     color: azure;
+     border-radius: 10px;
+ }
+
+ .start:hover {
+     background-color: beige;
+     color: blue;
+ }
+
+ .icon1 {
+    display: flex;
+    align-items: center;
+     font-size: 22px;
+ }
+
+ .brand {
+     border-radius: 10px;
+ }
+
+ .Cards {
+     padding: 18px 32px;
+     display: block;
+ }
+
+ #row {
+     margin: 15px;
+     display: flex;
+     justify-content: space-between;
+ }
+
+ #card {
+     display: flex;
+     border: 1px solid rgb(143, 141, 141);
+     box-shadow: 0px 0.5px 1px 0.5px rgb(88, 88, 88);
+ }
+
+ .text {
+     padding: 20px;
+ }
+
+
+ .features {
+     display: flex;
+     border: 1px solid #ddd;
+     border-radius: 10px;
+     margin: 25px 40px;
+     padding: 20px;
+     background-color: #f8fbff;
+ }
+
+ .feature {
+     display: flex;
+     align-items: center;
+     width: 33.33%;
+     padding: 5px 20px;
+ }
+
+ .feature2 {
+     display: flex;
+     align-items: center;
+     width: 33.33%;
+     padding: 5px 20px;
+     border-left: 1px solid #ddd;
+     border-right: 1px solid #ddd;
+ }
+
+ .icon {
+     font-size: 32px;
+     margin-right: 15px;
+ }
+
+ .feature h3 {
+     margin: 0 0 8px;
+     color: #12366b;
+ }
+
+ .feature p {
+     margin: 0;
+     color: #555;
+     line-height: 1.5;
+     font-size: 14px;
+ }
+
+ footer {
+     display: flex;
+     border: 1px solid #ddd;
+     padding: 20px 40px;
+     background-color: #1a4072;
+ }
+
+ .copyright {
+     border-right: 1px solid rgb(197, 197, 252);
+ }
+
+ .copyright h3,
+ p {
+     margin: 20px 70px 20px 25px;
+     color: #faf7f7;
+     font-size: 14px;
+ }
+
+ .section {
+     border-right: 1px solid rgb(197, 197, 252);
+     color: #faf7f7;
+ }
+
+ .section h3,
+ a {
+     margin: 20px 70px 20px 65px;
+ }
+
+ .links a {
+     text-decoration: none;
+     color: white;
+ }
+
+ .links a:hover {
+     color: blueviolet;
+ }
+
+ .social {
+     margin: 20px 70px 20px 75px;
+     color: white;
+ }
+
+ .social-icons {
+     font-size: 32px;
+     color: rgb(156, 143, 143);
+ }
+
+ .social-icons a {
+     color: rgb(136, 129, 129);
+     text-decoration: none;
+ }
